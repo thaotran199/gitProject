@@ -1,0 +1,42 @@
+#container{
+    background-color: #4EA9C3;
+    display: grid;
+    justify-content: center;
+    align-content: top;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    /* height: 50vh; */
+    }
+ul{
+display: grid;
+
+        }
+h1{
+    
+    color: #1736D9;
+}
+li {
+    color: #051D9D;
+    font-size: 1.5em;
+    grid-template-columns: 80% 20%;
+}
+
+.trashLogo {
+    width: 20px;
+    
+}
+.done{
+    text-decoration: line-through;
+    }
+
+.remove{
+text-decoration:dotted;    
+}
+
+ @media only screen and (max-width: 768px) {
+    #container{
+        width: 90%;
+    }
+   } 
